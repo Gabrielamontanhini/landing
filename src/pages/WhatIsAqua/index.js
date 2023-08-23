@@ -14,13 +14,13 @@ export default function WhatIsAqua() {
         <WhatIs>
             <article>
                 <h1>
-                Unveiling Aquaponics: A Harmonious Ecosystem
+                    Unveiling Aquaponics: A Harmonious Ecosystem
                 </h1>
                 <p>
-                Aquaponics is a harmonious symbiosis between aquaculture and hydroponics, 
-                creating a closed-loop ecosystem that redefines food cultivation. By harnessing the natural processes of 
-                nutrient cycling, our aquaponic systems offer bountiful 
-                harvests of fresh produce and fish, all while minimizing waste and resource consumption.
+                    Aquaponics is a harmonious symbiosis between aquaculture and hydroponics,
+                    creating a closed-loop ecosystem that redefines food cultivation. By harnessing the natural processes of
+                    nutrient cycling, our aquaponic systems offer bountiful
+                    harvests of fresh produce and fish, all while minimizing waste and resource consumption.
                 </p>
                 <p>
                     Our unique approach combines aquaponics and permaculture principles to create innovative systems.
@@ -31,14 +31,44 @@ export default function WhatIsAqua() {
             <div class="image-grid">
                 {data.map((item) => (
                     <figure key={item.id}>
-                    <img
-                        
-                        src={item.image}
-                        alt="item" 
-                    />
+                        <img
+
+                            src={item.image}
+                            alt="item"
+                        />
                     </figure>
                 ))}
             </div>
+            <article>
+                <h2>Our Services</h2>
+                <ul>
+                    <li>
+                        <h3>Design & Setup</h3>
+                        <p>Tailored aquaponic system designs and hassle-free setup.</p>
+                    </li>
+                    <li>
+                        <h3>Maintenance</h3>
+                        <p>Regular system check-ups and water quality monitoring.</p>
+                    </li>
+                    <li>
+                        <h3>Workshops</h3>
+                        <p>Engaging workshops to learn aquaponic techniques.</p>
+                    </li>
+                    <li>
+                        <h3>Community Impact</h3>
+                        <p>Promoting sustainable farming in local communities.</p>
+                    </li>
+                    <li>
+                        <h3>Consulting</h3>
+                        <p>Expert guidance for large-scale aquaponic projects.</p>
+                    </li>
+                    <li>
+                        <h3>Education</h3>
+                        <p>Spreading awareness about aquaponics' benefits.</p>
+                    </li>
+                </ul>
+
+            </article>
         </WhatIs>
     )
 }

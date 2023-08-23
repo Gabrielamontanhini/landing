@@ -3,6 +3,7 @@ import WhoWeAre from "../WhoWeAre";
 import { StyledMainPage } from "./styled";
 import WeOffer from "../WeOffer";
 import WhatIsAqua from "../WhatIsAqua";
+import ContactUs from "../ContactUs";
 
 
 
@@ -12,7 +13,7 @@ export default function MainPage(){
         <Home />
         <WhoWeAre />
         <WhatIsAqua />
-       {/**  <WeOffer />*/}
+       <ContactUs/>
         </StyledMainPage>
     )
 }

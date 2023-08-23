@@ -15,6 +15,9 @@ h2{
 p{
     font-size: 22px;
 }
+article{
+  width: 100%;
+}
 ul{
     width: 100%;
     li{

@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const StyledWe = styled.section`
-width: 60%;
+width: 80%;
 height: 91vh;
 h1{
     font-size: 30px;

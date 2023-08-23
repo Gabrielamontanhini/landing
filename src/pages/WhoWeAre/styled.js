@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 export const StyledWe = styled.section`
 width: 80%;
 height: 91vh;
+background-color: rgba(255, 255, 255, 0.7);
 h1{
     font-size: 30px;
 }

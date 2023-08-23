@@ -6,6 +6,7 @@ margin-top: 40px;
 display: flex;
 flex-direction: column;
 align-items: center;
+background-color: rgba(255, 255, 255, 0.7);
 h1{
     font-size: 35px;
 }

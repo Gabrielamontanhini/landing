@@ -1,10 +1,11 @@
 import { styled } from "styled-components";
 
 export const StyledHome = styled.section`
-width: 90%;
+width: 80%;
 height: 91vh;
 display: flex;
 align-items: center;
+background-color: rgba(255, 255, 255, 0.7);
 article{
     width: 50%;
     h1{

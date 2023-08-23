@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 export const ContactStyled = styled.section`
 width: 80%;
 display: flex;
+background-color: rgba(255, 255, 255, 0.7);
 h2{
     font-size: 30px;
 }
@@ -11,6 +12,7 @@ p{
 }
 article{
     width: 50%;
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;

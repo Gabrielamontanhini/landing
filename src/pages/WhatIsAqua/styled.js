@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const AquaPermaSolutions = styled.section`
+export const WhatIs = styled.section`
 width: 80%;
 margin-top: 40px;
 display: flex;

@@ -1,9 +1,9 @@
-import AquaPerma from "../../components/AquaPerma";
-import EcoArch from "../../components/EcoArch";
-import Home from "../../components/Home";
-import PureAqua from "../../components/PureAqua";
-import WhoWeAre from "../../components/WhoWeAre";
+import Home from "../Home";
+import WhoWeAre from "../WhoWeAre";
 import { StyledMainPage } from "./styled";
+import WeOffer from "../WeOffer";
+import WhatIsAqua from "../WhatIsAqua";
+
 
 
 export default function MainPage(){
@@ -11,9 +11,8 @@ export default function MainPage(){
         <StyledMainPage>
         <Home />
         <WhoWeAre />
-        <AquaPerma />
-        <EcoArch />
-        <PureAqua />
+        <WhatIsAqua />
+        <WeOffer />
         </StyledMainPage>
     )
 }

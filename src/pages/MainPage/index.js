@@ -12,7 +12,7 @@ export default function MainPage(){
         <Home />
         <WhoWeAre />
         <WhatIsAqua />
-        <WeOffer />
+       {/**  <WeOffer />*/}
         </StyledMainPage>
     )
 }
